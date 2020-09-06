@@ -38,7 +38,7 @@ client.on('message', (message) => {
   if(message.content == 'd 짱구') {
     let img = '';
     let embed = new Discord.RichEmbed()
-      .setTitle('```짱구의 정보```')
+      .setTitle('```fix\짱구의 정보```')
       .addField('정보', '이마나 뒤통수가 남달리 크게 튀어나온 머리통. 또는 그런 머리통을 가진 사람')
       .addField('정보', '북한에서는 남북머리라 한다. 이것에서 확장되어 " 짱구를 굴린다 " 등 머리 자체를 가리키는 말으로도 쓰인다.')
       .addField('정보', '[신짱구/노하라 신노스케](https://namu.wiki/w/%EB%85%B8%ED%95%98%EB%9D%BC%20%EC%8B%A0%EB%85%B8%EC%8A%A4%EC%BC%80):\n별도의 수식어 필요없이 ` 짱구 `라 하면 대다수가 이 캐릭터를 가리킨다')
