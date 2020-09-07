@@ -54,7 +54,6 @@ client.on('message', (message) => {
       .addBlankField()
       .addField('**```공식사이트```**', '[클릭](https://dora-world.com/)')
       .setImage(URL='https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:x9788925291178.jpg')
-      .setFooter('[공식사이트](https://dora-world.com/)')
       .setColor('#00ff04')
 
     message.channel.send(embed)
