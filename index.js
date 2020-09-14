@@ -65,10 +65,10 @@ client.on('message', (message) => {
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지2'.length);
       let embed = new Discord.RichEmbed()
-        .setAuthor('페페샵 공지')
+        .setAuthor('무료자료방')
         .setColor('#eee5dc')
   
-      embed.addField('```공지내용```\n', contents);
+      embed.addField('```공지```\n', contents);
   
       message.member.guild.members.array().forEach(x => {
         if(x.user.bot) return;
