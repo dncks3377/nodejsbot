@@ -13,7 +13,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("인증 봇이 정상적으로 실행되었습니다.")
-    game = discord.Game('★★~하는중에 표시될 게임★★')
+    game = discord.Game('!verify')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 @client.event
@@ -45,7 +45,7 @@ async def on_message(message):
             return
 
         if msg.content == a:
-            role = discord.utils.get(message.guild.roles, name="★★역 = 할 = 이 = 름★★")
+            role = discord.utils.get(message.guild.roles, name="𝔼")
             await message.channel.purge(limit=4)
             tjdrhdEmbed = discord.Embed(title='인증성공', color=0x04FF00)
             tjdrhdEmbed.add_field(name='닉네임', value=message.author, inline=False)
