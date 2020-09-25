@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "r": "node index2.js"
+    "r": "node index.js"
   },
   "dependencies": {
     "discord.js": "^11.5.1"
