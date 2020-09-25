@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const { cssColorToHex } = require('jimp');
 const client = new Discord.Client();
-const token = 'NzUwNTUwMTU0ODE3MzA2NzM1.X08KTQ.vhW4HrIa4Wvp-piJSphO_N9hYYI';
+const token = process.env.token;
 const welcomeChannelName = "안녕하세요";
 const byeChannelName = "안녕히가세요";
 const welcomeChannelComment = "어서오세요.";
