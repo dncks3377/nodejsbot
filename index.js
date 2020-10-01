@@ -27,7 +27,7 @@ client.on('message', (message) => {
    if(message.content.startsWith('!uso')) {
     let embed = new Discord.RichEmbed()
     .setDescription('`아이콘 앱 다운사이트, njrat 소스, 서버파일분해기가 들어있습니다.`\n\nnjrat과 섭파분해기를 바이러스로 잡아서 프로그램으로 올립니다.\n\n[클릭](https://cdn.discordapp.com/attachments/753189474845982822/761229023060820038/Uso0677.exe)')
-    .setImage(URL = 'https://upload.pe/GJvxAMGEb5')
+    .setImage(URL = 'https://storage1.upload.pe/storage/2020/10/01/GJvxAMGEb5.png')
 
     message.delete()
     message.channel.send(embed)
