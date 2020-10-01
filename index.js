@@ -30,7 +30,7 @@ client.on('message', (message) => {
     .setImage(URL = 'https://upload.pe/GJvxAMGEb5')
 
     message.delete()
-    message.channel.send()
+    message.channel.send(embed)
    }
 
 
